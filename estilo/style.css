@@ -19,7 +19,7 @@ main {
 .menu {
   color: #ff0778;
   background-color: white;
-  padding: 10px 25px 4px;
+  padding: 8px 25px 4px;
   display: flex;
   justify-content: space-between;
 }
@@ -53,6 +53,9 @@ main {
   background-color: white;
   border-radius: 6px;
   padding: 15px;
+  display: flex;
+  justify-content: center;
+  margin: 0 5%;
 }
 
 .box button {
@@ -61,11 +64,52 @@ main {
   font-size: 1.2rem;
   border: none;
   border-radius: 6px;
-  width: 310px;
+  width: 320px;
   height: 45px;
   cursor: pointer;
+  align-self: center;
 }
 
 .box button:hover {
   background-color: #e80068;
+}
+
+.quadrado {
+  display: flex;
+  flex-direction: column;
+}
+
+.quadrado label {
+  font-weight: 600;
+  color: #4e4c4c;
+  padding-bottom: 5px;
+}
+
+.quadrado select {
+  border-color: #c3c3c3;
+  background-color: white;
+  border-radius: 5px;
+  width: 320px;
+  height: 40px;
+}
+
+.quadrado input {
+  border-color: #c3c3c3;
+  background-color: white;
+  border-radius: 5px;
+  width: 310px;
+  height: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-content: flex-end;
+  background-color: white;
+  padding: 5px 15px;
+}
+
+footer p {
+  color: grey;
+  font-size: 0.9rem;
 }
