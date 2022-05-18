@@ -23,6 +23,17 @@ main {
   padding: 5px 25px 4px;
   display: flex;
   justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.menu h3 {
+  cursor: pointer;
+}
+
+.menu h3:hover {
+  color: #d70061;
 }
 
 .title {
@@ -94,6 +105,10 @@ main {
   color: #5e5e5e;
 }
 
+.seta {
+  color: #00b7ff;
+}
+
 .data {
   margin-bottom: 5%;
   border: 1px solid #c8c8c8;
@@ -150,6 +165,8 @@ footer {
   align-content: flex-end;
   background-color: white;
   width: 100%;
+  position: fixed;
+  bottom: 0;
 }
 
 footer a {
